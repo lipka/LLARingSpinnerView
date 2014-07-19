@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33B0F681197AB91B0081A8E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F680197AB91B0081A8E3 /* Foundation.framework */; };
+		33B0F683197AB91B0081A8E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F682197AB91B0081A8E3 /* CoreGraphics.framework */; };
+		33B0F685197AB91B0081A8E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F684197AB91B0081A8E3 /* UIKit.framework */; };
+		33B0F6A3197AB91B0081A8E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F6A2197AB91B0081A8E3 /* XCTest.framework */; };
+		33B0F6A4197AB91B0081A8E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F680197AB91B0081A8E3 /* Foundation.framework */; };
+		33B0F6A5197AB91B0081A8E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F684197AB91B0081A8E3 /* UIKit.framework */; };
+		33B0F6C8197ABB3E0081A8E3 /* LLAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6BA197ABB3D0081A8E3 /* LLAAppDelegate.m */; };
+		33B0F6C9197ABB3E0081A8E3 /* LLARingSpinnerView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6BB197ABB3D0081A8E3 /* LLARingSpinnerView-Info.plist */; };
+		33B0F6CA197ABB3E0081A8E3 /* LLAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6BE197ABB3D0081A8E3 /* LLAViewController.m */; };
+		33B0F6CB197ABB3E0081A8E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6BF197ABB3D0081A8E3 /* main.m */; };
+		33B0F6CC197ABB3E0081A8E3 /* LLARingSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6C2197ABB3E0081A8E3 /* LLARingSpinnerView.m */; };
+		33B0F6CD197ABB3E0081A8E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6C4197ABB3E0081A8E3 /* InfoPlist.strings */; };
+		33B0F6CE197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6C6197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist */; };
+		33B0F6D0197ABCF50081A8E3 /* LLARingSpinnerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6C7197ABB3E0081A8E3 /* LLARingSpinnerViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33B0F6A6197AB91B0081A8E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B0F675197AB91B0081A8E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B0F67C197AB91B0081A8E3;
+			remoteInfo = LLARingSpinnerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33B0F67D197AB91B0081A8E3 /* LLARingSpinnerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLARingSpinnerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B0F680197AB91B0081A8E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33B0F682197AB91B0081A8E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33B0F684197AB91B0081A8E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33B0F6A1197AB91B0081A8E3 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B0F6A2197AB91B0081A8E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33B0F6B9197ABB3D0081A8E3 /* LLAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAAppDelegate.h; sourceTree = "<group>"; };
+		33B0F6BA197ABB3D0081A8E3 /* LLAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAAppDelegate.m; sourceTree = "<group>"; };
+		33B0F6BB197ABB3D0081A8E3 /* LLARingSpinnerView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LLARingSpinnerView-Info.plist"; sourceTree = "<group>"; };
+		33B0F6BC197ABB3D0081A8E3 /* LLARingSpinnerView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLARingSpinnerView-Prefix.pch"; sourceTree = "<group>"; };
+		33B0F6BD197ABB3D0081A8E3 /* LLAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAViewController.h; sourceTree = "<group>"; };
+		33B0F6BE197ABB3D0081A8E3 /* LLAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAViewController.m; sourceTree = "<group>"; };
+		33B0F6BF197ABB3D0081A8E3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33B0F6C1197ABB3E0081A8E3 /* LLARingSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLARingSpinnerView.h; sourceTree = "<group>"; };
+		33B0F6C2197ABB3E0081A8E3 /* LLARingSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLARingSpinnerView.m; sourceTree = "<group>"; };
+		33B0F6C5197ABB3E0081A8E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33B0F6C6197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LLARingSpinnerViewTests-Info.plist"; sourceTree = "<group>"; };
+		33B0F6C7197ABB3E0081A8E3 /* LLARingSpinnerViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLARingSpinnerViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33B0F67A197AB91B0081A8E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B0F683197AB91B0081A8E3 /* CoreGraphics.framework in Frameworks */,
+				33B0F685197AB91B0081A8E3 /* UIKit.framework in Frameworks */,
+				33B0F681197AB91B0081A8E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B0F69E197AB91B0081A8E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B0F6A3197AB91B0081A8E3 /* XCTest.framework in Frameworks */,
+				33B0F6A5197AB91B0081A8E3 /* UIKit.framework in Frameworks */,
+				33B0F6A4197AB91B0081A8E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B0F674197AB91B0081A8E3 = {
+			isa = PBXGroup;
+			children = (
+				33B0F6C0197ABB3D0081A8E3 /* LLARingSpinnerView */,
+				33B0F6B8197ABB3D0081A8E3 /* Example */,
+				33B0F6C3197ABB3E0081A8E3 /* Tests */,
+				33B0F67F197AB91B0081A8E3 /* Frameworks */,
+				33B0F67E197AB91B0081A8E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33B0F67E197AB91B0081A8E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33B0F67D197AB91B0081A8E3 /* LLARingSpinnerView.app */,
+				33B0F6A1197AB91B0081A8E3 /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33B0F67F197AB91B0081A8E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33B0F680197AB91B0081A8E3 /* Foundation.framework */,
+				33B0F682197AB91B0081A8E3 /* CoreGraphics.framework */,
+				33B0F684197AB91B0081A8E3 /* UIKit.framework */,
+				33B0F6A2197AB91B0081A8E3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33B0F6B8197ABB3D0081A8E3 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				33B0F6B9197ABB3D0081A8E3 /* LLAAppDelegate.h */,
+				33B0F6BA197ABB3D0081A8E3 /* LLAAppDelegate.m */,
+				33B0F6BB197ABB3D0081A8E3 /* LLARingSpinnerView-Info.plist */,
+				33B0F6BC197ABB3D0081A8E3 /* LLARingSpinnerView-Prefix.pch */,
+				33B0F6BD197ABB3D0081A8E3 /* LLAViewController.h */,
+				33B0F6BE197ABB3D0081A8E3 /* LLAViewController.m */,
+				33B0F6BF197ABB3D0081A8E3 /* main.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		33B0F6C0197ABB3D0081A8E3 /* LLARingSpinnerView */ = {
+			isa = PBXGroup;
+			children = (
+				33B0F6C1197ABB3E0081A8E3 /* LLARingSpinnerView.h */,
+				33B0F6C2197ABB3E0081A8E3 /* LLARingSpinnerView.m */,
+			);
+			path = LLARingSpinnerView;
+			sourceTree = "<group>";
+		};
+		33B0F6C3197ABB3E0081A8E3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				33B0F6C4197ABB3E0081A8E3 /* InfoPlist.strings */,
+				33B0F6C6197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist */,
+				33B0F6C7197ABB3E0081A8E3 /* LLARingSpinnerViewTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33B0F67C197AB91B0081A8E3 /* LLARingSpinnerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B0F6B2197AB91B0081A8E3 /* Build configuration list for PBXNativeTarget "LLARingSpinnerView" */;
+			buildPhases = (
+				33B0F679197AB91B0081A8E3 /* Sources */,
+				33B0F67A197AB91B0081A8E3 /* Frameworks */,
+				33B0F67B197AB91B0081A8E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLARingSpinnerView;
+			productName = LLARingSpinnerView;
+			productReference = 33B0F67D197AB91B0081A8E3 /* LLARingSpinnerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33B0F6A0197AB91B0081A8E3 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B0F6B5197AB91B0081A8E3 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				33B0F69D197AB91B0081A8E3 /* Sources */,
+				33B0F69E197AB91B0081A8E3 /* Frameworks */,
+				33B0F69F197AB91B0081A8E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B0F6A7197AB91B0081A8E3 /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = LLARingSpinnerViewTests;
+			productReference = 33B0F6A1197AB91B0081A8E3 /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33B0F675197AB91B0081A8E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LLA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lukas Lipka";
+				TargetAttributes = {
+					33B0F6A0197AB91B0081A8E3 = {
+						TestTargetID = 33B0F67C197AB91B0081A8E3;
+					};
+				};
+			};
+			buildConfigurationList = 33B0F678197AB91B0081A8E3 /* Build configuration list for PBXProject "LLARingSpinnerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33B0F674197AB91B0081A8E3;
+			productRefGroup = 33B0F67E197AB91B0081A8E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33B0F67C197AB91B0081A8E3 /* LLARingSpinnerView */,
+				33B0F6A0197AB91B0081A8E3 /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33B0F67B197AB91B0081A8E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B0F6CE197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist in Resources */,
+				33B0F6C9197ABB3E0081A8E3 /* LLARingSpinnerView-Info.plist in Resources */,
+				33B0F6CD197ABB3E0081A8E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B0F69F197AB91B0081A8E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33B0F679197AB91B0081A8E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B0F6CA197ABB3E0081A8E3 /* LLAViewController.m in Sources */,
+				33B0F6CB197ABB3E0081A8E3 /* main.m in Sources */,
+				33B0F6CC197ABB3E0081A8E3 /* LLARingSpinnerView.m in Sources */,
+				33B0F6C8197ABB3E0081A8E3 /* LLAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B0F69D197AB91B0081A8E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B0F6D0197ABCF50081A8E3 /* LLARingSpinnerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33B0F6A7197AB91B0081A8E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B0F67C197AB91B0081A8E3 /* LLARingSpinnerView */;
+			targetProxy = 33B0F6A6197AB91B0081A8E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33B0F6C4197ABB3E0081A8E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B0F6C5197ABB3E0081A8E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33B0F6B0197AB91B0081A8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33B0F6B1197AB91B0081A8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33B0F6B3197AB91B0081A8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/LLARingSpinnerView-Prefix.pch";
+				INFOPLIST_FILE = "Example/LLARingSpinnerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33B0F6B4197AB91B0081A8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/LLARingSpinnerView-Prefix.pch";
+				INFOPLIST_FILE = "Example/LLARingSpinnerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33B0F6B6197AB91B0081A8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LLARingSpinnerView.app/LLARingSpinnerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/LLARingSpinnerView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/LLARingSpinnerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33B0F6B7197AB91B0081A8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LLARingSpinnerView.app/LLARingSpinnerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/LLARingSpinnerView-Prefix.pch";
+				INFOPLIST_FILE = "Tests/LLARingSpinnerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33B0F678197AB91B0081A8E3 /* Build configuration list for PBXProject "LLARingSpinnerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B0F6B0197AB91B0081A8E3 /* Debug */,
+				33B0F6B1197AB91B0081A8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B0F6B2197AB91B0081A8E3 /* Build configuration list for PBXNativeTarget "LLARingSpinnerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B0F6B3197AB91B0081A8E3 /* Debug */,
+				33B0F6B4197AB91B0081A8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B0F6B5197AB91B0081A8E3 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B0F6B6197AB91B0081A8E3 /* Debug */,
+				33B0F6B7197AB91B0081A8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33B0F675197AB91B0081A8E3 /* Project object */;
+}
