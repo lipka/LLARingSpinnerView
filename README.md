@@ -9,7 +9,7 @@ LLARingSpinnerView is a deligthful spinner for diplaying indeterminate progress 
 
 ## Example
 
-![Screenshot](http://i.imgur.com/LboRSet.png)
+![Screenshot](http://i.imgur.com/fJhVyGO.png)
 
 Open up the included Xcode project for an example app.
 
