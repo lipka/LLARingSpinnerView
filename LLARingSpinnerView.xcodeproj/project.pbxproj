@@ -21,6 +21,7 @@
 		33B0F6CD197ABB3E0081A8E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6C4197ABB3E0081A8E3 /* InfoPlist.strings */; };
 		33B0F6CE197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6C6197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist */; };
 		33B0F6D0197ABCF50081A8E3 /* LLARingSpinnerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6C7197ABB3E0081A8E3 /* LLARingSpinnerViewTests.m */; };
+		33B0F6D2197AF3980081A8E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6D1197AF3980081A8E3 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		33B0F6C5197ABB3E0081A8E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		33B0F6C6197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LLARingSpinnerViewTests-Info.plist"; sourceTree = "<group>"; };
 		33B0F6C7197ABB3E0081A8E3 /* LLARingSpinnerViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLARingSpinnerViewTests.m; sourceTree = "<group>"; };
+		33B0F6D1197AF3980081A8E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				33B0F6BD197ABB3D0081A8E3 /* LLAViewController.h */,
 				33B0F6BE197ABB3D0081A8E3 /* LLAViewController.m */,
 				33B0F6BF197ABB3D0081A8E3 /* main.m */,
+				33B0F6D1197AF3980081A8E3 /* Images.xcassets */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B0F6CE197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist in Resources */,
+				33B0F6D2197AF3980081A8E3 /* Images.xcassets in Resources */,
 				33B0F6C9197ABB3E0081A8E3 /* LLARingSpinnerView-Info.plist in Resources */,
 				33B0F6CD197ABB3E0081A8E3 /* InfoPlist.strings in Resources */,
 			);
