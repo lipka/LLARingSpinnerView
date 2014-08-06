@@ -1,5 +1,9 @@
 # LLARingSpinnerView
 
+[![Build Status](https://travis-ci.org/lipka/LLARingSpinnerView.svg)](https://travis-ci.org/lipka/LLARingSpinnerView)
+[![Version](http://cocoapod-badges.herokuapp.com/v/LLARingSpinnerView/badge.png)](http://cocoadocs.org/docsets/LLARingSpinnerView)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/LLARingSpinnerView/badge.png)](http://cocoadocs.org/docsets/LLARingSpinnerView)
+
 LLARingSpinnerView is a deligthful spinner for diplaying indeterminate progress that you can use in your apps.
 
 - Simple API
