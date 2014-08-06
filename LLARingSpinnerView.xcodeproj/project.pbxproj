@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3330EE771992DF70006846B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6C4197ABB3E0081A8E3 /* InfoPlist.strings */; };
 		33B0F681197AB91B0081A8E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F680197AB91B0081A8E3 /* Foundation.framework */; };
 		33B0F683197AB91B0081A8E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F682197AB91B0081A8E3 /* CoreGraphics.framework */; };
 		33B0F685197AB91B0081A8E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F684197AB91B0081A8E3 /* UIKit.framework */; };
@@ -14,12 +15,9 @@
 		33B0F6A4197AB91B0081A8E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F680197AB91B0081A8E3 /* Foundation.framework */; };
 		33B0F6A5197AB91B0081A8E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F684197AB91B0081A8E3 /* UIKit.framework */; };
 		33B0F6C8197ABB3E0081A8E3 /* LLAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6BA197ABB3D0081A8E3 /* LLAAppDelegate.m */; };
-		33B0F6C9197ABB3E0081A8E3 /* LLARingSpinnerView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6BB197ABB3D0081A8E3 /* LLARingSpinnerView-Info.plist */; };
 		33B0F6CA197ABB3E0081A8E3 /* LLAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6BE197ABB3D0081A8E3 /* LLAViewController.m */; };
 		33B0F6CB197ABB3E0081A8E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6BF197ABB3D0081A8E3 /* main.m */; };
 		33B0F6CC197ABB3E0081A8E3 /* LLARingSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6C2197ABB3E0081A8E3 /* LLARingSpinnerView.m */; };
-		33B0F6CD197ABB3E0081A8E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6C4197ABB3E0081A8E3 /* InfoPlist.strings */; };
-		33B0F6CE197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6C6197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist */; };
 		33B0F6D0197ABCF50081A8E3 /* LLARingSpinnerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6C7197ABB3E0081A8E3 /* LLARingSpinnerViewTests.m */; };
 		33B0F6D2197AF3980081A8E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6D1197AF3980081A8E3 /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -222,10 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B0F6CE197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist in Resources */,
 				33B0F6D2197AF3980081A8E3 /* Images.xcassets in Resources */,
-				33B0F6C9197ABB3E0081A8E3 /* LLARingSpinnerView-Info.plist in Resources */,
-				33B0F6CD197ABB3E0081A8E3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3330EE771992DF70006846B9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
