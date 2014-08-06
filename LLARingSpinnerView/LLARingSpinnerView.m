@@ -29,6 +29,14 @@ static NSString *kLLARingSpinnerAnimationKey = @"llaringspinnerview.rotation";
     return self;
 }
 
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super initWithCoder:aDecoder]) {
+        [self.layer addSublayer:self.progressLayer];
+    }
+    return self;
+}
+
 - (void)layoutSubviews {
     [super layoutSubviews];
 
