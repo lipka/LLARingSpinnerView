@@ -7,7 +7,7 @@
 //
 
 #import "LLAViewController.h"
-#import "LLARingSpinnerView.h"
+#import <LLARingSpinnerView/LLARingSpinnerView.h>
 
 @interface LLAViewController ()
 

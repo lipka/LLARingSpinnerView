@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3330EE771992DF70006846B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6C4197ABB3E0081A8E3 /* InfoPlist.strings */; };
 		33B0F681197AB91B0081A8E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F680197AB91B0081A8E3 /* Foundation.framework */; };
 		33B0F683197AB91B0081A8E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F682197AB91B0081A8E3 /* CoreGraphics.framework */; };
 		33B0F685197AB91B0081A8E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B0F684197AB91B0081A8E3 /* UIKit.framework */; };
@@ -17,9 +16,10 @@
 		33B0F6C8197ABB3E0081A8E3 /* LLAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6BA197ABB3D0081A8E3 /* LLAAppDelegate.m */; };
 		33B0F6CA197ABB3E0081A8E3 /* LLAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6BE197ABB3D0081A8E3 /* LLAViewController.m */; };
 		33B0F6CB197ABB3E0081A8E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6BF197ABB3D0081A8E3 /* main.m */; };
-		33B0F6CC197ABB3E0081A8E3 /* LLARingSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6C2197ABB3E0081A8E3 /* LLARingSpinnerView.m */; };
 		33B0F6D0197ABCF50081A8E3 /* LLARingSpinnerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B0F6C7197ABB3E0081A8E3 /* LLARingSpinnerViewTests.m */; };
 		33B0F6D2197AF3980081A8E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B0F6D1197AF3980081A8E3 /* Images.xcassets */; };
+		589D88EBBA55430FA2B92254 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3188FD559D7143B9AA920FEB /* libPods-Tests.a */; };
+		F7375340C2E14B838A847B02 /* libPods-LLARingSpinnerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CD2EDDB17C46758E99572E /* libPods-LLARingSpinnerView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3188FD559D7143B9AA920FEB /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A89B4F1993973000B56995 /* Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		33B0F67D197AB91B0081A8E3 /* LLARingSpinnerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLARingSpinnerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B0F680197AB91B0081A8E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		33B0F682197AB91B0081A8E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,12 +48,12 @@
 		33B0F6BD197ABB3D0081A8E3 /* LLAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAViewController.h; sourceTree = "<group>"; };
 		33B0F6BE197ABB3D0081A8E3 /* LLAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAViewController.m; sourceTree = "<group>"; };
 		33B0F6BF197ABB3D0081A8E3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		33B0F6C1197ABB3E0081A8E3 /* LLARingSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLARingSpinnerView.h; sourceTree = "<group>"; };
-		33B0F6C2197ABB3E0081A8E3 /* LLARingSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLARingSpinnerView.m; sourceTree = "<group>"; };
-		33B0F6C5197ABB3E0081A8E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		33B0F6C6197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LLARingSpinnerViewTests-Info.plist"; sourceTree = "<group>"; };
+		33B0F6C6197ABB3E0081A8E3 /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		33B0F6C7197ABB3E0081A8E3 /* LLARingSpinnerViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLARingSpinnerViewTests.m; sourceTree = "<group>"; };
 		33B0F6D1197AF3980081A8E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E5DACB15A43418F9A1C0D88 /* Pods-LLARingSpinnerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLARingSpinnerView.xcconfig"; path = "Pods/Pods-LLARingSpinnerView.xcconfig"; sourceTree = "<group>"; };
+		85CD2EDDB17C46758E99572E /* libPods-LLARingSpinnerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLARingSpinnerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECCE41714D84377BBDEBCBC /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				33B0F683197AB91B0081A8E3 /* CoreGraphics.framework in Frameworks */,
 				33B0F685197AB91B0081A8E3 /* UIKit.framework in Frameworks */,
 				33B0F681197AB91B0081A8E3 /* Foundation.framework in Frameworks */,
+				F7375340C2E14B838A847B02 /* libPods-LLARingSpinnerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +75,7 @@
 				33B0F6A3197AB91B0081A8E3 /* XCTest.framework in Frameworks */,
 				33B0F6A5197AB91B0081A8E3 /* UIKit.framework in Frameworks */,
 				33B0F6A4197AB91B0081A8E3 /* Foundation.framework in Frameworks */,
+				589D88EBBA55430FA2B92254 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,11 +85,12 @@
 		33B0F674197AB91B0081A8E3 = {
 			isa = PBXGroup;
 			children = (
-				33B0F6C0197ABB3D0081A8E3 /* LLARingSpinnerView */,
 				33B0F6B8197ABB3D0081A8E3 /* Example */,
 				33B0F6C3197ABB3E0081A8E3 /* Tests */,
 				33B0F67F197AB91B0081A8E3 /* Frameworks */,
 				33B0F67E197AB91B0081A8E3 /* Products */,
+				5E5DACB15A43418F9A1C0D88 /* Pods-LLARingSpinnerView.xcconfig */,
+				EECCE41714D84377BBDEBCBC /* Pods-Tests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +110,8 @@
 				33B0F682197AB91B0081A8E3 /* CoreGraphics.framework */,
 				33B0F684197AB91B0081A8E3 /* UIKit.framework */,
 				33B0F6A2197AB91B0081A8E3 /* XCTest.framework */,
+				85CD2EDDB17C46758E99572E /* libPods-LLARingSpinnerView.a */,
+				3188FD559D7143B9AA920FEB /* libPods-Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,21 +131,12 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		33B0F6C0197ABB3D0081A8E3 /* LLARingSpinnerView */ = {
-			isa = PBXGroup;
-			children = (
-				33B0F6C1197ABB3E0081A8E3 /* LLARingSpinnerView.h */,
-				33B0F6C2197ABB3E0081A8E3 /* LLARingSpinnerView.m */,
-			);
-			path = LLARingSpinnerView;
-			sourceTree = "<group>";
-		};
 		33B0F6C3197ABB3E0081A8E3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				33B0F6C4197ABB3E0081A8E3 /* InfoPlist.strings */,
-				33B0F6C6197ABB3E0081A8E3 /* LLARingSpinnerViewTests-Info.plist */,
+				33B0F6C6197ABB3E0081A8E3 /* Tests-Info.plist */,
 				33B0F6C7197ABB3E0081A8E3 /* LLARingSpinnerViewTests.m */,
+				33A89B4F1993973000B56995 /* Tests-Prefix.pch */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -150,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33B0F6B2197AB91B0081A8E3 /* Build configuration list for PBXNativeTarget "LLARingSpinnerView" */;
 			buildPhases = (
+				8DE7C700359746038C8FA2C4 /* Check Pods Manifest.lock */,
 				33B0F679197AB91B0081A8E3 /* Sources */,
 				33B0F67A197AB91B0081A8E3 /* Frameworks */,
 				33B0F67B197AB91B0081A8E3 /* Resources */,
+				21066EA59040478D9E69B01E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33B0F6B5197AB91B0081A8E3 /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
+				9E37EA799F9042499C2223A0 /* Check Pods Manifest.lock */,
 				33B0F69D197AB91B0081A8E3 /* Sources */,
 				33B0F69E197AB91B0081A8E3 /* Frameworks */,
 				33B0F69F197AB91B0081A8E3 /* Resources */,
+				72DC9576CA9D4034B5B7AC85 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,11 +230,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3330EE771992DF70006846B9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21066EA59040478D9E69B01E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-LLARingSpinnerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72DC9576CA9D4034B5B7AC85 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE7C700359746038C8FA2C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E37EA799F9042499C2223A0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33B0F679197AB91B0081A8E3 /* Sources */ = {
@@ -241,7 +305,6 @@
 			files = (
 				33B0F6CA197ABB3E0081A8E3 /* LLAViewController.m in Sources */,
 				33B0F6CB197ABB3E0081A8E3 /* main.m in Sources */,
-				33B0F6CC197ABB3E0081A8E3 /* LLARingSpinnerView.m in Sources */,
 				33B0F6C8197ABB3E0081A8E3 /* LLAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,17 +326,6 @@
 			targetProxy = 33B0F6A6197AB91B0081A8E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		33B0F6C4197ABB3E0081A8E3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33B0F6C5197ABB3E0081A8E3 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		33B0F6B0197AB91B0081A8E3 /* Debug */ = {
@@ -376,6 +428,7 @@
 		};
 		33B0F6B3197AB91B0081A8E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5DACB15A43418F9A1C0D88 /* Pods-LLARingSpinnerView.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -390,6 +443,7 @@
 		};
 		33B0F6B4197AB91B0081A8E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5DACB15A43418F9A1C0D88 /* Pods-LLARingSpinnerView.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -404,6 +458,7 @@
 		};
 		33B0F6B6197AB91B0081A8E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECCE41714D84377BBDEBCBC /* Pods-Tests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LLARingSpinnerView.app/LLARingSpinnerView";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -412,12 +467,12 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Example/LLARingSpinnerView-Prefix.pch";
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Tests/LLARingSpinnerViewTests-Info.plist";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -426,6 +481,7 @@
 		};
 		33B0F6B7197AB91B0081A8E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECCE41714D84377BBDEBCBC /* Pods-Tests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LLARingSpinnerView.app/LLARingSpinnerView";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -434,8 +490,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Example/LLARingSpinnerView-Prefix.pch";
-				INFOPLIST_FILE = "Tests/LLARingSpinnerViewTests-Info.plist";
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

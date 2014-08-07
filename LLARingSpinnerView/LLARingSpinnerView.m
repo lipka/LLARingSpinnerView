@@ -70,7 +70,7 @@ static NSString *kLLARingSpinnerAnimationKey = @"llaringspinnerview.rotation";
 }
 
 - (void)stopAnimating {
-    if (self.isAnimating)
+    if (!self.isAnimating)
         return;
 
     [self.progressLayer removeAnimationForKey:kLLARingSpinnerAnimationKey];
