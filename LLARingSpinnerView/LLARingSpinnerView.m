@@ -82,7 +82,10 @@ static NSString *kLLARingSpinnerAnimationKey = @"llaringspinnerview.rotation";
 - (void)updatePath {
     CGPoint center = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
     CGFloat radius = MIN(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
-    self.progressLayer.path = [UIBezierPath bezierPathWithArcCenter:center radius:radius startAngle:-M_PI_4 endAngle:3 * M_PI_2 clockwise:true].CGPath;
+    CGFloat startAngle = (CGFloat)(-M_PI_4);
+    CGFloat endAngle = (CGFloat)(3 * M_PI_2);
+    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:center radius:radius startAngle:startAngle endAngle:endAngle clockwise:YES];
+    self.progressLayer.path = path.CGPath;
 }
 
 #pragma mark - Properties
