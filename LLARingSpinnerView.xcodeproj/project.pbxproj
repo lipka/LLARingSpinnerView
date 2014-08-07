@@ -312,6 +312,19 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wconversion",
+					"-Wdeprecated-implementations",
+					"-Werror",
+					"-Wfloat-equal",
+					"-Wimplicit-retain-self",
+					"-Wnewline-eof",
+					"-Wreturn-type",
+					"-Wshadow",
+					"-Wsign-compare",
+					"-Wundef",
+				);
 			};
 			name = Debug;
 		};
@@ -345,6 +358,19 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wconversion",
+					"-Wdeprecated-implementations",
+					"-Werror",
+					"-Wfloat-equal",
+					"-Wimplicit-retain-self",
+					"-Wnewline-eof",
+					"-Wreturn-type",
+					"-Wshadow",
+					"-Wsign-compare",
+					"-Wundef",
+				);
 			};
 			name = Release;
 		};

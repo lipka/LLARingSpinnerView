@@ -22,19 +22,22 @@ static NSString *kLLARingSpinnerAnimationKey = @"llaringspinnerview.rotation";
 @synthesize progressLayer = _progressLayer;
 @synthesize isAnimating = _isAnimating;
 
-- (id)initWithFrame:(CGRect)frame {
+- (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        [self.layer addSublayer:self.progressLayer];
+        [self initialize];
     }
     return self;
 }
 
-- (id)initWithCoder:(NSCoder *)aDecoder
-{
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super initWithCoder:aDecoder]) {
-        [self.layer addSublayer:self.progressLayer];
+        [self initialize];
     }
     return self;
+}
+
+- (void)initialize {
+    [self.layer addSublayer:self.progressLayer];
 }
 
 - (void)layoutSubviews {

@@ -2,6 +2,12 @@
 *xcuserdata/
 *build/
 *.mode1v3
+*.mode2v3
+*.perspectivev3
 *.pbxuser
-*.xcworkspace
-*.moved-aside/
+./*.xcworkspace
+*.moved-aside
+*.swp
+*.lock
+*.xccheckout
+DerivedData/
