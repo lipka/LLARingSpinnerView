@@ -16,7 +16,7 @@ it(@"should fit in bounds", ^{
     spinnerView.lineWidth = 5.0f;
     spinnerView.backgroundColor = [UIColor whiteColor];
 
-    expect(spinnerView).to.to.haveValidSnapshot();
+    expect(spinnerView).to.haveValidSnapshot();
 });
 
 describe(@"tintColor", ^{
