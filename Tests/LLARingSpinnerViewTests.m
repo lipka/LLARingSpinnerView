@@ -70,4 +70,34 @@ describe(@"lineWidth", ^{
     });
 });
 
+describe(@"hidesWhenStopped", ^{
+    it(@"should be visible by default when not set", ^{
+        LLARingSpinnerView *spinnerView = [[LLARingSpinnerView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+
+        expect(spinnerView.hidden).to.beFalsy();
+    });
+
+    it(@"should be hidden by default if set", ^{
+        LLARingSpinnerView *spinnerView = [[LLARingSpinnerView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+        spinnerView.hidesWhenStopped = YES;
+
+        expect(spinnerView.hidden).to.beTruthy();
+    });
+
+    it(@"should change with animation status", ^{
+        LLARingSpinnerView *spinnerView = [[LLARingSpinnerView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+        spinnerView.hidesWhenStopped = YES;
+
+        expect(spinnerView.hidden).to.beTruthy();
+
+        [spinnerView startAnimating];
+
+        expect(spinnerView.hidden).to.beFalsy();
+
+        [spinnerView stopAnimating];
+
+        expect(spinnerView.hidden).to.beTruthy();
+    });
+});
+
 SpecEnd
