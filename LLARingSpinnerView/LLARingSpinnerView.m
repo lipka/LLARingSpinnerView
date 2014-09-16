@@ -121,4 +121,9 @@ static NSString *kLLARingSpinnerAnimationKey = @"llaringspinnerview.rotation";
     [self updatePath];
 }
 
+- (void)setHidesWhenStopped:(BOOL)hidesWhenStopped {
+    _hidesWhenStopped = hidesWhenStopped;
+    self.hidden = !self.isAnimating && hidesWhenStopped;
+}
+
 @end
