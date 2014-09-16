@@ -67,6 +67,10 @@ static NSString *kLLARingSpinnerAnimationKey = @"llaringspinnerview.rotation";
 
     [self.progressLayer addAnimation:animation forKey:kLLARingSpinnerAnimationKey];
     self.isAnimating = true;
+    
+    if (self.hidesWhenStopped) {
+        self.hidden = NO;
+    }
 }
 
 - (void)stopAnimating {
@@ -75,6 +79,10 @@ static NSString *kLLARingSpinnerAnimationKey = @"llaringspinnerview.rotation";
 
     [self.progressLayer removeAnimationForKey:kLLARingSpinnerAnimationKey];
     self.isAnimating = false;
+    
+    if (self.hidesWhenStopped) {
+        self.hidden = YES;
+    }
 }
 
 #pragma mark - Private
