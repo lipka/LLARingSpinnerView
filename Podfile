@@ -1,3 +1,4 @@
+source 'https://github.com/CocoaPods/Specs.git'
 workspace 'LLARingSpinnerView'
 
 target 'LLARingSpinnerView' do
@@ -10,7 +11,6 @@ target 'Tests' do
   pod 'Specta'
   pod 'Expecta'
   pod 'OCMock'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
+  pod 'Expecta+Snapshots', '1.2.1'
   xcodeproj 'LLARingSpinnerView.xcodeproj'
 end
