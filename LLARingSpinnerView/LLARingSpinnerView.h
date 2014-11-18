@@ -10,9 +10,10 @@
 
 @interface LLARingSpinnerView : UIView
 
-@property (nonatomic, readonly) BOOL isAnimating;
 @property (nonatomic) CGFloat lineWidth;
-@property (nonatomic, assign) BOOL hidesWhenStopped;
+@property (nonatomic) BOOL hidesWhenStopped;
+@property (nonatomic, strong) CAMediaTimingFunction *timingFunction;
+@property (nonatomic, readonly) BOOL isAnimating;
 
 - (void)startAnimating;
 - (void)stopAnimating;
