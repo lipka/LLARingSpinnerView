@@ -1,10 +1,10 @@
 language: objective-c
 before_install:
   - brew update
-  - brew uninstall xctool
-  - brew install xctool
+  - brew outdated xctool || brew upgrade xctool
   - export LANG=en_US.UTF-8
   - gem i cocoapods --no-ri --no-rdoc
 xcode_workspace: LLARingSpinnerView.xcworkspace
-xcode_scheme: LLARingSpinnerView
+xcode_scheme: LLARingSpinnerViewTests
 xcode_sdk: iphonesimulator
+osx_image: xcode7
