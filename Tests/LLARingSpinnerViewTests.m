@@ -8,6 +8,10 @@
 
 #import <LLARingSpinnerView/LLARingSpinnerView.h>
 
+@import Specta;
+@import Expecta;
+@import Expecta_Snapshots;
+
 SpecBegin(LLARingSpinnerView)
 
 it(@"should fit in bounds", ^{

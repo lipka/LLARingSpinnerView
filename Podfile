@@ -1,4 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
 workspace 'LLARingSpinnerView'
 
 target 'LLARingSpinnerView' do
@@ -7,10 +8,11 @@ target 'LLARingSpinnerView' do
 end
 
 target 'Tests' do
+  use_frameworks!
   pod "LLARingSpinnerView", :path => "LLARingSpinnerView.podspec"
-  pod 'Specta'
+  pod 'Specta', :git => "https://github.com/specta/specta"
   pod 'Expecta'
   pod 'OCMock'
-  pod 'Expecta+Snapshots', '1.2.1'
+  pod 'Expecta+Snapshots'
   xcodeproj 'LLARingSpinnerView.xcodeproj'
 end
