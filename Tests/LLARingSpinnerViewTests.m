@@ -7,10 +7,9 @@
 //
 
 #import <LLARingSpinnerView/LLARingSpinnerView.h>
-
-@import Specta;
-@import Expecta;
-@import Expecta_Snapshots;
+#import <Specta/Specta.h>
+#import <Expecta/Expecta.h>
+#import <Expecta+Snapshots/EXPMatchers+FBSnapshotTest.h>
 
 SpecBegin(LLARingSpinnerView)
 

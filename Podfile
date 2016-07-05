@@ -4,15 +4,13 @@ workspace 'LLARingSpinnerView'
 
 target 'LLARingSpinnerView' do
   pod "LLARingSpinnerView", :path => "LLARingSpinnerView.podspec"
-  xcodeproj 'LLARingSpinnerView.xcodeproj'
+  project 'LLARingSpinnerView.xcodeproj'
 end
 
 target 'Tests' do
-  use_frameworks!
   pod "LLARingSpinnerView", :path => "LLARingSpinnerView.podspec"
-  pod 'Specta', :git => "https://github.com/specta/specta"
+  pod 'Specta'
   pod 'Expecta'
-  pod 'OCMock'
   pod 'Expecta+Snapshots'
-  xcodeproj 'LLARingSpinnerView.xcodeproj'
+  project 'LLARingSpinnerView.xcodeproj'
 end
