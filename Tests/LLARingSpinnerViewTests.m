@@ -23,6 +23,26 @@ it(@"should fit in bounds", ^{
     expect(spinnerView).to.haveValidSnapshot();
 });
 
+describe(@"startAnimating", ^{
+    it(@"should be safe to call multiple times", ^{
+        LLARingSpinnerView *spinnerView = [[LLARingSpinnerView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+        [spinnerView startAnimating];
+        [spinnerView startAnimating];
+        
+        expect(spinnerView.isAnimating).to.beTruthy();
+    });
+});
+
+describe(@"stopAnimating", ^{
+    it(@"should be safe to call multiple times", ^{
+        LLARingSpinnerView *spinnerView = [[LLARingSpinnerView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+        [spinnerView stopAnimating];
+        [spinnerView stopAnimating];
+        
+        expect(spinnerView.isAnimating).to.beFalsy();
+    });
+});
+
 describe(@"tintColor", ^{
     it(@"should have default tint color", ^{
         LLARingSpinnerView *spinnerView = [[LLARingSpinnerView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
@@ -54,7 +74,6 @@ describe(@"isAnimating", ^{
 
         expect(spinnerView.isAnimating).to.beFalsy();
     });
-
 });
 
 describe(@"lineWidth", ^{

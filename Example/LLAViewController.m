@@ -26,12 +26,23 @@
     self.spinnerView.tintColor = [UIColor colorWithRed:215.f/255 green:49.f/255 blue:69.f/255 alpha:1];
     self.spinnerView.center = CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds));
     [self.view addSubview:self.spinnerView];
+    
+    UITapGestureRecognizer *recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTap:)];
+    [self.view addGestureRecognizer:recognizer];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
 
     [self.spinnerView startAnimating];
+}
+
+- (void)didTap:(UIGestureRecognizer *)recognizer {
+    if (self.spinnerView.isAnimating) {
+        [self.spinnerView stopAnimating];
+    } else {
+        [self.spinnerView startAnimating];
+    }
 }
 
 @end
