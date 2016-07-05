@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "LLARingSpinnerView"
-  s.version = "0.1.3"
+  s.version = "0.1.4"
   s.homepage = "https://github.com/lipka/LLARingSpinnerView"
   s.summary = "An animated ring spinner view for displaying indeterminate progress."
   s.source = { :git => "https://github.com/lipka/LLARingSpinnerView.git", :tag => s.version.to_s }
